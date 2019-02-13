@@ -1,2 +1,6 @@
 <!--pages/login/index.wxml-->
-<text>学生课程选择</text>
+<form class='login' bindsubmit='login'>
+  <input type='text' name="userName" placeholder='请输入学号'></input>
+  <input type='text' password="true" name="userPwd" placeholder='请输入密码'></input>
+  <button form-type='submit'>登录</button>
+</form>

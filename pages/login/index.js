@@ -1,4 +1,7 @@
 // pages/login/index.js
+import {M} from '../../util/M.js';
+let m=new M();
+let that;
 Page({
 
   /**
@@ -12,9 +15,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    that=this;
+    m.query('.login',(res)=>{
+      console.log(res);
+    });
   },
-
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -62,5 +68,14 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  login(e){
+    if(e.detail.value.userName==""){
+      m.showTost('学号有误');
+      return;
+    }else if(e.detail.value.userPwd==""){
+      m.showTost('密码不能为空');
+      return;
+    }
   }
 })

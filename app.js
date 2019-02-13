@@ -1,10 +1,18 @@
 //app.js
 App({
-  onLaunch: function () {
-    
-   
-  },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    windowWidth: '',
+    windowHeight: ''
+  },
+  onLaunch: function () {
+    let that=this;
+    wx.getSystemInfo({
+      success: function(res) {
+        that.globalData.windowWidth=res.windowWidth;
+        that.globalData.windowHeight=res.windowHeight;
+      },
+    })
   }
+  
 })
