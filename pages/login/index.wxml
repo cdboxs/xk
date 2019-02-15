@@ -1,6 +1,19 @@
 <!--pages/login/index.wxml-->
-<form class='login' bindsubmit='login'>
-  <input type='text' name="userName" placeholder='请输入学号'></input>
-  <input type='text' password="true" name="userPwd" placeholder='请输入密码'></input>
-  <button form-type='submit'>登录</button>
-</form>
+<image src='../img/loginbg.jpg' style="display:block;width:{{width}}px;height:{{height}}px;"></image>
+<view class='container'>
+  <view class='title'>
+    <text>学生选课系统</text> 
+    <text>Student Course Selection System</text>
+  </view>
+  <form class='login' bindsubmit='login'>
+    <view>
+      <icon class='icon iconfont icon-wodezhanghu'></icon>
+      <input type='text' name="userName" placeholder='请输入学号'></input>
+    </view>
+    <view>
+      <icon class="icon iconfont icon-suoding"></icon>
+      <input type='text' password="true" name="userPwd" placeholder='请输入密码'></input>
+    </view>
+    <button form-type='submit'>登录</button>
+  </form>
+</view>

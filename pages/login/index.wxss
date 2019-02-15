@@ -1,4 +1,59 @@
 /* pages/login/index.wxss */
-input{
-  border:1rpx solid #ddd;
+.iconfont{
+  color:#888;
+  font-size: 48rpx;
+} 
+.container{
+  width: 100%;
+  position: fixed;top:28%;left:0;
 }
+.title{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin:0 0 80rpx 0;
+}
+.title text{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.title text:first-child{
+  font-size: 48rpx;
+}
+.title text:last-child{
+  font-size: 24rpx;
+}
+.login{
+  display: block;
+  width: 100%;
+}
+.login view{
+  width: 95%;
+  margin:15rpx auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.login view input{
+  width: 95%;
+  padding:15rpx;
+  margin:15rpx;
+  border-bottom:1rpx solid #ddd;
+}
+.login button{
+  width: 95%;
+  padding:5rpx 0;
+  margin:60rpx auto 0;
+  color:#fff;
+  background: #0bc9c2;
+}
+
+
+
+
+
+
+
+
