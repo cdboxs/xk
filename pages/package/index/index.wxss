@@ -1,1 +1,82 @@
 /* pages/packageA/index/index.wxss */
+page{
+  background: #f4f4f4;
+}
+.top{
+  width: 100%;
+  height: 230rpx;
+  background: #0382f5;
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: center; */
+}
+.top .wel-txt{
+  display:block;
+  color: #fff;
+  font-size: 48rpx;
+  margin-left: 25rpx;
+}
+.welcome{
+  width: 620rpx;
+  height: 220rpx;
+  background:rgba(255, 255, 255, 0.95 );
+  border-radius: 10rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+.stu{
+  width: 100%;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding-left: 25rpx;
+}
+.stu text{
+  color: #333;
+  font-size: 38rpx;
+}
+.v-bot{
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pwd,.out{
+  font-size: 32rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.pwd{
+  color: #989898;
+}
+.out{
+  color: #0382f3;
+}
+.lists{
+  width: 100%;
+  height: 660rpx;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 150rpx;
+}
+.list1{
+  width: 620rpx;
+  height: 173rpx;
+  background: #fff;
+  border: 1rpx solid #e1e1e1;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 3px 2px #ececec;
+}
+.list1 image{
+  width: 190rpx;
+  height: 173rpx;
+  border-radius: 10rpx 0 0 10rpx;
+}
+.list1 .txt{
+  display: inline-block;
+  width: 420rpx;
+  font-size: 40rpx;
+  text-align: center;
+}

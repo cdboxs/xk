@@ -1,0 +1,11 @@
+<!--pages/package/results/index.wxml-->
+<view class='results'>
+  <view class='title'>
+    <text class='txt1'>JAVA基础</text>
+    <text class='txt2'>教师：孙伟光</text>
+  </view>
+  <view class='list'>
+  <text class='list1'>平时(30%) 期中(0%) 技能(0%) 期末(70%) 学分(0%） </text>
+  <text class='list3'>总成绩</text>
+  </view>
+</view>
