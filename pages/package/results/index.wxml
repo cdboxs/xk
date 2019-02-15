@@ -5,7 +5,165 @@
     <text class='txt2'>教师：孙伟光</text>
   </view>
   <view class='list'>
-  <text class='list1'>平时(30%) 期中(0%) 技能(0%) 期末(70%) 学分(0%） </text>
-  <text class='list3'>总成绩</text>
+    <view class='list1'>
+      <text>平时(30%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>期中(0%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>技能(0%)</text>
+      <text>0</text>
+    </view>
+    <view class='list1'>
+      <text>期末(70%)</text>
+      <text>80</text>
+    </view>
+  </view>
+  <!-- 总成绩 -->
+  <view class='total'>
+    <text class='list3'>总成绩:68</text>
+  </view>
+</view>
+<view class='results'>
+  <view class='title'>
+    <text class='txt1'>WEBUI设计</text>
+    <text class='txt2'>教师：王艺霏</text>
+  </view>
+  <view class='list'>
+    <view class='list1'>
+      <text>平时(30%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>期中(0%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>技能(0%)</text>
+      <text>0</text>
+    </view>
+    <view class='list1'>
+      <text>期末(70%)</text>
+      <text>80</text>
+    </view>
+  </view>
+  <!-- 总成绩 -->
+  <view class='total'>
+    <text class='list3'>总成绩:90</text>
+  </view>
+</view>
+<view class='results'>
+  <view class='title'>
+    <text class='txt1'>HTML5网页编程技术</text>
+    <text class='txt2'>教师：俱孟园</text>
+  </view>
+  <view class='list'>
+    <view class='list1'>
+      <text>平时(30%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>期中(0%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>技能(0%)</text>
+      <text>0</text>
+    </view>
+    <view class='list1'>
+      <text>期末(70%)</text>
+      <text>80</text>
+    </view>
+  </view>
+  <!-- 总成绩 -->
+  <view class='total'>
+    <text class='list3'>总成绩:95</text>
+  </view>
+</view>
+<view class='results'>
+  <view class='title'>
+    <text class='txt1'>PHP技术</text>
+    <text class='txt2'>教师：张彦芳</text>
+  </view>
+  <view class='list'>
+    <view class='list1'>
+      <text>平时(30%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>期中(0%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>技能(0%)</text>
+      <text>0</text>
+    </view>
+    <view class='list1'>
+      <text>期末(70%)</text>
+      <text>80</text>
+    </view>
+  </view>
+  <!-- 总成绩 -->
+  <view class='total'>
+    <text class='list3'>总成绩:68</text>
+  </view>
+</view>
+<view class='results'>
+  <view class='title'>
+    <text class='txt1'>JAVA基础</text>
+    <text class='txt2'>教师：孙伟光</text>
+  </view>
+  <view class='list'>
+    <view class='list1'>
+      <text>平时(30%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>期中(0%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>技能(0%)</text>
+      <text>0</text>
+    </view>
+    <view class='list1'>
+      <text>期末(70%)</text>
+      <text>80</text>
+    </view>
+  </view>
+  <!-- 总成绩 -->
+  <view class='total'>
+    <text class='list3'>总成绩:68</text>
+  </view>
+</view>
+<view class='results'>
+  <view class='title'>
+    <text class='txt1'>JAVA基础</text>
+    <text class='txt2'>教师：孙伟光</text>
+  </view>
+  <view class='list'>
+    <view class='list1'>
+      <text>平时(30%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>期中(0%)</text>
+      <text>50</text>
+    </view>
+    <view class='list1'>
+      <text>技能(0%)</text>
+      <text>0</text>
+    </view>
+    <view class='list1'>
+      <text>期末(70%)</text>
+      <text>80</text>
+    </view>
+  </view>
+  <!-- 总成绩 -->
+  <view class='total'>
+    <text class='list3'>总成绩:68</text>
   </view>
 </view>
