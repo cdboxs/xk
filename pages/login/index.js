@@ -1,6 +1,7 @@
 // pages/login/index.js
 import {M} from '../../util/M.js';
 let m=new M();
+let app=getApp();
 let that;
 Page({
 
@@ -16,8 +17,9 @@ Page({
    */
   onLoad: function (options) {
     that=this;
-    m.query('.login',(res)=>{
-      console.log(res);
+    that.setData({
+      width:app.globalData.windowWidth,
+      height:app.globalData.windowHeight
     });
   },
   
@@ -76,6 +78,16 @@ Page({
     }else if(e.detail.value.userPwd==""){
       m.showTost('密码不能为空');
       return;
+    }else{ 
+      if(e.detail.value.userName=="admin"&& e.detail.value.userPwd=="admin"){
+        m.showLoading('正在登陆');
+        setTimeout(()=>{
+          wx.reLaunch({
+            url: '../package/index/index',
+          });
+          wx.hideLoading();
+        },2000);
+      }
     }
   }
 })
