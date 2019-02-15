@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/package/results/index",
     "pages/login/index",
+    "pages/package/results/index",
     "pages/package/index/index"
   ],
   "window": {

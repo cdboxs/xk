@@ -1,8 +1,16 @@
 <!--pages/package/results/index.wxml-->
+<view>
+  <picker bindchange="selectTime" value="{{resultIndex}}" range="{{results}}" class='selectTime'>
+  <view>
+    <icon class='icon iconfont icon-riqi'></icon>
+    <text>{{results[resultIndex]}}</text>
+    <icon class='icon iconfont icon-jiantou-xia'></icon>
+  </view>
+  </picker>
+</view>
 <view class='results'>
   <view class='title'>
-    <text class='txt1'>JAVA基础</text>
-    <text class='txt2'>教师：孙伟光</text>
+   JAVA基础
   </view>
   <view class='list'>
     <view class='list1'>
@@ -24,13 +32,15 @@
   </view>
   <!-- 总成绩 -->
   <view class='total'>
-    <text class='list3'>总成绩:68</text>
+    <text>教师:孙伟光</text>
+    <text>学时:68</text>
+    <text>学分:2</text>
+    <text>总成绩:68</text>
   </view>
 </view>
 <view class='results'>
   <view class='title'>
-    <text class='txt1'>WEBUI设计</text>
-    <text class='txt2'>教师：王艺霏</text>
+    WEBUI设计
   </view>
   <view class='list'>
     <view class='list1'>
@@ -50,15 +60,17 @@
       <text>80</text>
     </view>
   </view>
-  <!-- 总成绩 -->
+ <!-- 总成绩 -->
   <view class='total'>
-    <text class='list3'>总成绩:90</text>
+    <text>教师:孙伟光</text>
+    <text>学时:68</text>
+    <text>学分:2</text>
+    <text>总成绩:68</text>
   </view>
 </view>
 <view class='results'>
   <view class='title'>
-    <text class='txt1'>HTML5网页编程技术</text>
-    <text class='txt2'>教师：俱孟园</text>
+    HTML5网页编程技术
   </view>
   <view class='list'>
     <view class='list1'>
@@ -78,15 +90,17 @@
       <text>80</text>
     </view>
   </view>
-  <!-- 总成绩 -->
+ <!-- 总成绩 -->
   <view class='total'>
-    <text class='list3'>总成绩:95</text>
+    <text>教师:孙伟光</text>
+    <text>学时:68</text>
+    <text>学分:2</text>
+    <text>总成绩:68</text>
   </view>
 </view>
 <view class='results'>
   <view class='title'>
-    <text class='txt1'>PHP技术</text>
-    <text class='txt2'>教师：张彦芳</text>
+    PHP技术
   </view>
   <view class='list'>
     <view class='list1'>
@@ -106,15 +120,17 @@
       <text>80</text>
     </view>
   </view>
-  <!-- 总成绩 -->
+ <!-- 总成绩 -->
   <view class='total'>
-    <text class='list3'>总成绩:68</text>
+    <text>教师:孙伟光</text>
+    <text>学时:68</text>
+    <text>学分:2</text>
+    <text>总成绩:68</text>
   </view>
 </view>
 <view class='results'>
   <view class='title'>
-    <text class='txt1'>JAVA基础</text>
-    <text class='txt2'>教师：孙伟光</text>
+    JAVA基础
   </view>
   <view class='list'>
     <view class='list1'>
@@ -134,15 +150,17 @@
       <text>80</text>
     </view>
   </view>
-  <!-- 总成绩 -->
+ <!-- 总成绩 -->
   <view class='total'>
-    <text class='list3'>总成绩:68</text>
+    <text>教师:孙伟光</text>
+    <text>学时:68</text>
+    <text>学分:2</text>
+    <text>总成绩:68</text>
   </view>
 </view>
 <view class='results'>
   <view class='title'>
-    <text class='txt1'>JAVA基础</text>
-    <text class='txt2'>教师：孙伟光</text>
+    大数据
   </view>
   <view class='list'>
     <view class='list1'>
@@ -162,8 +180,11 @@
       <text>80</text>
     </view>
   </view>
-  <!-- 总成绩 -->
+ <!-- 总成绩 -->
   <view class='total'>
-    <text class='list3'>总成绩:68</text>
+    <text>教师:孙伟光</text>
+    <text>学时:68</text>
+    <text>学分:2</text>
+    <text>总成绩:68</text>
   </view>
 </view>

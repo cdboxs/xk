@@ -3,7 +3,7 @@
   <text class='wel-txt'>欢迎登录！</text>
   <view class='welcome'>
     <view class='stu'>
-      <text>软件学院 李凯亮同学！</text>
+      <text>软件学院【李凯亮】同学！</text>
     </view>
     <view class='v-bot'>
       <text class='pwd'>修改密码</text>

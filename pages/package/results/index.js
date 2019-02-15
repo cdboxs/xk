@@ -1,18 +1,20 @@
 // pages/package/results/index.js
+let that;
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    resultIndex:0,
+    results: ['2018-2019第一学期', '2018-2019第二学期']
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    that=this;
   },
 
   /**
@@ -62,5 +64,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  selectTime(e){
+    that.setData({
+      resultIndex:e.detail.value
+    });
   }
 })
