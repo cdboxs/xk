@@ -1,21 +1,13 @@
 {
   "pages": [
     "pages/package/results/index",
-    "pages/package/index/index",
-    "pages/login/index"
+    "pages/login/index",
+    "pages/package/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0282f5",
     "navigationBarTitleText": "学生选课系统",
     "navigationBarTextStyle": "white"
-  },
-  "subPackages": [
-    {
-      "root": "pages/package/",
-      "pages": [
-        "index/index"
-      ]
-    }
-  ]
+  }
 }

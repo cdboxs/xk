@@ -20,7 +20,7 @@
     <image src='/pages/package/img/02.jpg'></image>
     <text class='txt'>已选课程</text>
   </view>
-   <view class='list1'>
+   <view class='list1' bindtap='linkResults'>
     <image src='/pages/package/img/03.jpg'></image>
     <text class='txt'>查询成绩</text>
   </view>
