@@ -1,4 +1,4 @@
-// pages/packageA/index/index.js
+// pages/package/classInfo/index.js
 Page({
 
   /**
@@ -7,11 +7,7 @@ Page({
   data: {
 
   },
-  linkSetPwd() {
-    wx.navigateTo({
-      url: '../setPwd/index',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -66,20 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  linkResults(){
-    wx.navigateTo({
-      url: '/pages/package/results/index',
-    })
-  },
-  linkSclass() {
-    wx.navigateTo({
-      url: '/pages/package/selectClass/index',
-    })
-  },
-  linkMyClass() {
-    wx.navigateTo({
-      url: '/pages/package/selectClass/index?id=3',
-    })
   }
 })

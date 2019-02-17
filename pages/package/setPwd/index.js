@@ -1,4 +1,8 @@
-// pages/packageA/index/index.js
+// pages/package/setPwd/index.js
+import { M } from '../../../util/M.js';
+let m = new M();
+let app = getApp();
+let that;
 Page({
 
   /**
@@ -7,11 +11,7 @@ Page({
   data: {
 
   },
-  linkSetPwd() {
-    wx.navigateTo({
-      url: '../setPwd/index',
-    })
-  },
+ 
   /**
    * 生命周期函数--监听页面加载
    */
@@ -67,19 +67,24 @@ Page({
   onShareAppMessage: function () {
 
   },
-  linkResults(){
-    wx.navigateTo({
-      url: '/pages/package/results/index',
-    })
-  },
-  linkSclass() {
-    wx.navigateTo({
-      url: '/pages/package/selectClass/index',
-    })
-  },
-  linkMyClass() {
-    wx.navigateTo({
-      url: '/pages/package/selectClass/index?id=3',
-    })
+  setPwd(e){
+    if (e.detail.value.oldPwd == "") {
+      m.showTost('旧密码不能为空');
+      return;
+    } else if (e.detail.value.newPwd == "") {
+      m.showTost('新密码不能为空');
+      return;
+    } else if (e.detail.value.truePwd == "") {
+      m.showTost('确认密码不能为空');
+      return;
+    } else {
+      m.showLoading('修改成功');
+      setTimeout(() => {
+        wx.reLaunch({
+          url: '../../login/index',
+        });
+        wx.hideLoading();
+      }, 2000);
+    }
   }
 })

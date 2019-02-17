@@ -1,0 +1,17 @@
+<!--pages/package/classInfo/index.wxml-->
+<view class='classInfo'>
+  <view class='classParameter'>
+    <text>课程名称：HTML5编程技术</text>
+    <text>教师：陈德</text>
+    <text>学分：2分</text>
+    <text>学时：64课时</text>
+    <text>教室：4-203</text>
+    <text>时间：1-16周，每周一，1-2节</text>
+  </view>
+  <view class='classDetails'>
+    <text class='classTitle'>课程介绍</text>
+    <view>
+      国家税务总局12366北京纳税服务中心近期接到纳税人来电咨询新个人所得税法实施后纳税记录有关问题，中心负责人对这些问题进行了解答。 据这位负责人介绍，纳税人2019年1月1日以后取得应税所得并由扣缴义务人向税务机关办理了全员全额扣缴申报，或根据税法规定自行向税务机关办理纳税申报的，不论是否实际缴纳税款，均可以申请开具个人所得税纳税记录。 “也就是说，即便是零申报，均在纳税记录中连续记载。”这位负责人说。 来源 北京晚报
+    </view>
+  </view>
+</view>

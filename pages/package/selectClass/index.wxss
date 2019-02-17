@@ -1,0 +1,106 @@
+/* pages/package/selectClass/index.wxss */
+.swicthNav{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.swicthNav view{
+  width: 33.33%;
+  padding:20rpx 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  border-bottom:1px solid #eee;
+}
+.iconfont{
+  color:#ddd;
+  font-size: 48rpx;
+}
+.swicthNav view text{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+}
+.swicthNav .active{
+   transition: all 0.3s ease-in-out;
+  width: 33.33%;
+  color:#0282f5;
+  border-bottom:1px solid #0282f5;
+}
+.active .iconfont{
+  color:#0282f5;
+  transition: all 0.3s ease-in-out;
+}
+
+.classList{
+  width:95%;
+  margin:20rpx auto;
+  /* padding:20rpx 0; */
+  box-sizing: border-box;
+  border:1rpx solid #eee;
+  border-radius: 10rpx;
+}
+.classList .className{
+  display: block;
+  font-size: 32rpx;
+  background:#efeff4;
+  padding:15rpx;
+  color: #444;
+}
+.classList .classParameter{
+  padding:15rpx;
+  width:100%;
+  position: relative;
+  box-sizing: border-box;
+}
+.classList .classParameter text{
+  display: block;
+  color:#777;
+  font-size: 28rpx;
+  margin:5rpx 0;
+}
+.classList .classParameter .selectClass{
+  display: inline-block;
+  padding:10rpx 40rpx;
+  border-radius: 10rpx;
+  background:#0fc962;
+  color:#fff;
+  font-size: 30rpx;
+  position: absolute;top:5%;right:10rpx;
+}
+.classList .classParameter .classNum{
+  width: 60px;
+  height: 60px;
+  color: green;
+  text-align: center;
+  line-height: 60px;
+  font-size: 28rpx;
+  background: rgba(0, 0, 0,0);
+  position: absolute;bottom:5px;right:10rpx;z-index: 9999;
+  
+}
+.classList .classParameter #mychart-dom-bar {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  overflow: hidden;
+  position: absolute;bottom:5px;right:10rpx;z-index: 2;
+}
+.classList .classParameter .cancelClass{
+  display: inline-block;
+  padding:10rpx 25rpx;
+  border-radius: 10rpx;
+  background:#f76260;
+  color:#fff;
+  font-size: 30rpx;
+  position: absolute;top:30%;right:2%;
+}
+
+
+
+

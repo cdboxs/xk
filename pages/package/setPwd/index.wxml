@@ -1,0 +1,16 @@
+<!--pages/package/setPwd/index.wxml-->
+<form class='setPwd' bindsubmit='setPwd'>
+<view>
+    <icon class='icon iconfont icon-suoding'></icon>
+    <input type="text" password='true' name="oldPwd" placeholder='请输入旧密码'></input>
+  </view>
+  <view>
+    <icon class='icon iconfont icon-suoding'></icon>
+    <input type="text" password='true' name="newPwd" placeholder='请输入新密码'></input>
+  </view>
+  <view>
+    <icon class='icon iconfont icon-suoding'></icon>
+    <input type="text" password='true' name="truePwd" placeholder='请输入确认密码'></input>
+  </view>
+  <button form-type='submit'>确认修改</button>
+</form>

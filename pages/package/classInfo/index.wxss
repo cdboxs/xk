@@ -1,0 +1,50 @@
+/* pages/package/classInfo/index.wxss */
+page{
+  background:#f8f3f7;
+}
+.classInfo{
+  width: 95%;
+  margin:30rpx auto;
+  padding: 38rpx 20rpx;
+  background:#fff;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+}
+.classInfo .classParameter{
+  color:#666;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.classInfo .classParameter text:first-child{
+  display: block;
+  width: 100%;
+  font-size: 32rpx;
+  margin-bottom:15rpx;
+}
+.classInfo .classParameter text:nth-of-type(2),
+.classInfo .classParameter text:nth-of-type(3),
+.classInfo .classParameter text:nth-of-type(4),
+.classInfo .classParameter text:nth-of-type(5){
+  display: block;
+  width: 50%;
+  font-size: 30rpx;
+  margin:10rpx 0;
+}
+.classInfo .classParameter text:last-child{
+  display: block;
+  width: 100%;
+  font-size: 30rpx;
+}
+.classDetails{
+  overflow: hidden;
+}
+.classDetails .classTitle{
+  display: block;
+  font-size: 30rpx;
+  padding:30rpx 0;
+}
+.classDetails view{
+  font-size: 30rpx;
+  color:#666;
+}

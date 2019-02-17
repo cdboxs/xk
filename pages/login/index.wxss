@@ -44,10 +44,9 @@
 }
 .login button{
   width: 95%;
-  padding:5rpx 0;
   margin:60rpx auto 0;
   color:#fff;
-  background: #0bc9c2;
+  background: #0282f5;
 }
 
 
