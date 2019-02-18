@@ -12,6 +12,11 @@ Page({
       url: '../setPwd/index',
     })
   },
+  loginout(){
+    wx.reLaunch({
+      url: '../../login/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
