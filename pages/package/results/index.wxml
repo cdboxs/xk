@@ -18,7 +18,7 @@
       <text>50</text>
     </view>
     <view class='list1'>
-      <text>期中(0%)</text>
+      <text>期中(10%)</text>
       <text>50</text>
     </view>
     <view class='list1'>
@@ -26,7 +26,7 @@
       <text>0</text>
     </view>
     <view class='list1'>
-      <text>期末(70%)</text>
+      <text>期末(60%)</text>
       <text>80</text>
     </view>
   </view>
@@ -48,7 +48,7 @@
       <text>50</text>
     </view>
     <view class='list1'>
-      <text>期中(0%)</text>
+      <text>期中(20%)</text>
       <text>50</text>
     </view>
     <view class='list1'>
@@ -56,13 +56,13 @@
       <text>0</text>
     </view>
     <view class='list1'>
-      <text>期末(70%)</text>
+      <text>期末(50%)</text>
       <text>80</text>
     </view>
   </view>
  <!-- 总成绩 -->
   <view class='total'>
-    <text>教师:孙伟光</text>
+    <text>教师:王亦菲</text>
     <text>学时:68</text>
     <text>学分:2</text>
     <text>总成绩:68</text>
@@ -78,7 +78,7 @@
       <text>50</text>
     </view>
     <view class='list1'>
-      <text>期中(0%)</text>
+      <text>期中(20%)</text>
       <text>50</text>
     </view>
     <view class='list1'>
@@ -86,13 +86,13 @@
       <text>0</text>
     </view>
     <view class='list1'>
-      <text>期末(70%)</text>
+      <text>期末(50%)</text>
       <text>80</text>
     </view>
   </view>
  <!-- 总成绩 -->
   <view class='total'>
-    <text>教师:孙伟光</text>
+    <text>教师:陈德</text>
     <text>学时:68</text>
     <text>学分:2</text>
     <text>总成绩:68</text>
@@ -108,7 +108,7 @@
       <text>50</text>
     </view>
     <view class='list1'>
-      <text>期中(0%)</text>
+      <text>期中(10%)</text>
       <text>50</text>
     </view>
     <view class='list1'>
@@ -116,13 +116,13 @@
       <text>0</text>
     </view>
     <view class='list1'>
-      <text>期末(70%)</text>
+      <text>期末(60%)</text>
       <text>80</text>
     </view>
   </view>
  <!-- 总成绩 -->
   <view class='total'>
-    <text>教师:孙伟光</text>
+    <text>教师:张艳芳</text>
     <text>学时:68</text>
     <text>学分:2</text>
     <text>总成绩:68</text>
@@ -130,7 +130,7 @@
 </view>
 <view class='results'>
   <view class='title'>
-    JAVA基础
+    电子商务营销
   </view>
   <view class='list'>
     <view class='list1'>
@@ -138,7 +138,7 @@
       <text>50</text>
     </view>
     <view class='list1'>
-      <text>期中(0%)</text>
+      <text>期中(10%)</text>
       <text>50</text>
     </view>
     <view class='list1'>
@@ -146,13 +146,13 @@
       <text>0</text>
     </view>
     <view class='list1'>
-      <text>期末(70%)</text>
+      <text>期末(60%)</text>
       <text>80</text>
     </view>
   </view>
  <!-- 总成绩 -->
   <view class='total'>
-    <text>教师:孙伟光</text>
+    <text>教师:孙向能</text>
     <text>学时:68</text>
     <text>学分:2</text>
     <text>总成绩:68</text>
@@ -168,7 +168,7 @@
       <text>50</text>
     </view>
     <view class='list1'>
-      <text>期中(0%)</text>
+      <text>期中(30%)</text>
       <text>50</text>
     </view>
     <view class='list1'>
@@ -176,7 +176,7 @@
       <text>0</text>
     </view>
     <view class='list1'>
-      <text>期末(70%)</text>
+      <text>期末(40%)</text>
       <text>80</text>
     </view>
   </view>

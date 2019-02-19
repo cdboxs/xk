@@ -34,7 +34,12 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    let userInfo = wx.getStorageSync('userInfo');
+    if (userInfo) {
+      wx.redirectTo({
+        url: '../package/index/index',
+      })
+    }
   },
 
   /**
@@ -80,6 +85,8 @@ Page({
       return;
     }else{ 
       if(e.detail.value.userName=="admin"&& e.detail.value.userPwd=="admin"){
+        let userInfo = { userName: e.detail.value.userName}
+        wx.setStorageSync('userInfo', userInfo);
         m.showLoading('正在登录');
         setTimeout(()=>{
           wx.reLaunch({

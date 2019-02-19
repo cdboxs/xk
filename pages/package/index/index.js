@@ -1,4 +1,8 @@
 // pages/packageA/index/index.js
+import { M } from '../../../util/M.js';
+let m = new M();
+let app = getApp();
+let that;
 Page({
 
   /**
@@ -13,6 +17,7 @@ Page({
     })
   },
   loginout(){
+    wx.clearStorageSync('userInfo');
     wx.reLaunch({
       url: '../../login/index',
     })
@@ -21,7 +26,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    that=this;
   },
 
   /**
@@ -35,7 +40,12 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    let userInfo=wx.getStorageSync('userInfo');
+    if (userInfo){
+      that.setData({
+        u:userInfo
+      });
+    }
   },
 
   /**
