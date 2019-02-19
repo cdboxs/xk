@@ -80,7 +80,7 @@ Page({
       return;
     }else{ 
       if(e.detail.value.userName=="admin"&& e.detail.value.userPwd=="admin"){
-        m.showLoading('正在登陆');
+        m.showLoading('正在登录');
         setTimeout(()=>{
           wx.reLaunch({
             url: '../package/index/index',
