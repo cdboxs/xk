@@ -15,117 +15,38 @@
 </view>
 
 <view wx:if="{{navId==1}}">
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
+  <view class='classList' data-cf="{{item}}" bindtap='classinfo'  wx:for="{{classDatas}}" wx:key="key">
+    <text class='className'>{{item.className}}</text>
     <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
+      <text>教师：{{item.teacher}}</text>
+      <text>学分：{{item.xuefen}}2分</text>
+      <text>学时：{{item.xueshi}}课时</text>
+      <text>教室：{{item.classRoom}}</text>
+      <text>时间：{{item.times}}</text>
       <view class='selectClass'>选课</view>
        <view class='classNum'>54人</view>
       <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
     </view>
   </view>
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
-    <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
-      <view class='selectClass'>选课</view>
-       <view class='classNum'>54人</view>
-      <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
-    </view>
-  </view>
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
-    <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
-      <view class='selectClass'>选课</view>
-       <view class='classNum'>54人</view>
-      <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
-    </view>
-  </view>
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
-    <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
-      <view class='selectClass'>选课</view>
-      <view class='classNum'>54人</view>
-      <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
-    </view>
-  </view>
-
 </view>
 <view wx:if="{{navId==2}}">
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
+  <view class='classList' bindtap='classinfo'  wx:for="{{classDatas}}" wx:key="key">
+    <text class='className'>{{item.className}}</text>
     <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
+      <text>教师：{{item.teacher}}</text>
+      <text>学分：{{item.xuefen}}2分</text>
+      <text>学时：{{item.xueshi}}课时</text>
+      <text>教室：{{item.classRoom}}</text>
+      <text>时间：{{item.times}}</text>
       <view class='selectClass'>选课</view>
        <view class='classNum'>54人</view>
-      <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
-    </view>
-  </view>
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
-    <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
-      <view class='selectClass'>选课</view>
-       <view class='classNum'>54人</view>
-      <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
-    </view>
-  </view>
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
-    <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
-      <view class='selectClass'>选课</view>
-       <view class='classNum'>54人</view>
-      <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
-    </view>
-  </view>
-  <view class='classList'>
-    <text class='className'>HTML5编程技术</text>
-    <view class='classParameter'>
-      <text>教师：陈德</text>
-      <text>学分：2分</text>
-      <text>学时：64课时</text>
-      <text>教室：4-203</text>
-      <text>时间：1-16周，每周一，1-2节</text>
-      <view class='selectClass'>选课</view>
-      <view class='classNum'>54人</view>
       <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ classData }}"></ec-canvas>
     </view>
   </view>
 
 </view>
 <view wx:if="{{navId==3}}">
-  <view class='classList'>
+  <view class='classList' bindtap='classinfo'>
     <text class='className'>HTML5编程技术</text>
     <view class='classParameter'>
       <text>教师：陈德</text>

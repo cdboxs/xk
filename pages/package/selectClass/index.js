@@ -12,8 +12,18 @@ Page({
    */
   data: {
     navId:Number,
+    classDatas:[
+      { className: 'HTML5编程技术', teacher: '陈德', xuefen: '2', xueshi: '64', classRoom: '4-203', times: '周一1-2节' },
+      { className: 'javaweb基础', teacher: '孙伟光', xuefen: '2', xueshi: '64', classRoom: '4-203', times: '周一1-2节' },
+      { className: 'php面向对象', teacher: '张艳芳', xuefen: '2', xueshi: '64', classRoom: '4-203', times: '周一1-2节' },
+      { className: 'UI设计', teacher: '王艺霏', xuefen: '2', xueshi: '64', classRoom: '4-204', times: '周一1-2节' }
+    ]
   },
-
+  classinfo(){
+    wx.navigateTo({
+      url: '../classInfo/index'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
